@@ -7,11 +7,12 @@ public class hw02_105021034 {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		Random r = new Random();
-		int n = scn.nextInt();
-		for(int a=0;a<n;a++)
-		{
+		int n =scn.nextInt() ;
+			System.out.print(r.nextInt(n)+1);
+			System.out.print(r.nextInt(n)+1);
+			System.out.print(r.nextInt(n)+1);
+			System.out.print(r.nextInt(n)+1);
+			System.out.print(r.nextInt(n)+1);
 			System.out.print(r.nextInt(n)+1);
 		}
-	}
-
 }
